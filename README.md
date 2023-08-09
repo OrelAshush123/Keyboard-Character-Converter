@@ -36,4 +36,8 @@ Here's an example of the application in action:
 ## Credits
 Developed by Orel Ashush
 License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
+This project is licensed under the MIT License. 
+
+See the [LICENSE](LICENSE) file for more information.
+
+![Example Image](Screenshot2.png)
