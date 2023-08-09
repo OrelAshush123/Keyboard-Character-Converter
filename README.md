@@ -31,7 +31,7 @@ This Python application provides a graphical user interface (GUI) for converting
 
 Here's an example of the application in action:
 
-![Example Image](Screenshots.png)
+![Example Image](Screenshot.png)
 
 ##Credits
 Developed by Orel Ashush
