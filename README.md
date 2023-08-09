@@ -33,7 +33,7 @@ Here's an example of the application in action:
 
 ![Example Image](Screenshot.png)
 
-##Credits
+## Credits
 Developed by Orel Ashush
 License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
