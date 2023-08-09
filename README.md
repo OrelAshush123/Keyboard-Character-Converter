@@ -17,7 +17,7 @@ This Python application provides a graphical user interface (GUI) for converting
 1. Make sure you have Python installed on your system.
 2. Clone this repository to your local machine:
    ```sh
-   git clone https://github.com/OrelAshush123/transportation_app.git
+   git clone https://github.com/OrelAshush123/Keyboard-Character-Converter.git
 
 ## Usage
 
