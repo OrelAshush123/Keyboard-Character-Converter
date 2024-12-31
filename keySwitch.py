@@ -44,6 +44,7 @@ class window(Frame):
         if self.var.get() == 1: self.Result.set(keyHeToEn(self.Text.get()))
         elif self.var.get() == 2: self.Result.set(keyEnToHe(self.Text.get()))
         else: messagebox.showerror(title="ERROR", message="PLS CHOOSE THE CONVERT TYPE")
+        addToClipBoard()
     
     def makewindow(self):     
         Radiobutton(self.master, text="He To En", font = ("David", 15), variable=self.var, value=1).pack()
@@ -51,7 +52,7 @@ class window(Frame):
         Label(self.master, textvariable=self.Result, width=70).pack(pady=5)
         Entry(self.master, textvariable=self.Text, width=60, bd = 3).pack()
         Button(self.master, text="convert", font = ("David", 15), width=32, command=self.StartConvert).pack(pady=5)
-        Button(self.master, text="copy to clipboard", font = ("David", 15), width=32, command=self.addToClipBoard).pack(pady=5)
+        #Button(self.master, text="copy to clipboard", font = ("David", 15), width=32, command=self.addToClipBoard).pack(pady=5)
 
 if __name__ == "__main__":
     win = Tk(className='convertKeyboard')
